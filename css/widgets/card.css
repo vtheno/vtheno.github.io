@@ -1,12 +1,10 @@
 .card {
-    width: 20em;
+    width: 25em;
     height: auto;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 8px 8px 0 rgba(0,0,0,0.15);
     text-align: center;
     float: inherit;
     margin: 1em;
-    background-color: inherit;
-    color: inherit;
 }
 .card .header {
     padding: 0.5em;
@@ -14,4 +12,5 @@
 }
 .card .container {
     padding: 1em;
+    float: inherit;
 }
