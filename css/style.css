@@ -1,11 +1,17 @@
 /* widget */
 @import url("widgets/card.css");
 @import url("widgets/button.css");
+@import url("widgets/input.css");
 /* layout */
 @import url("layouts/flex.css");
 @import url("layouts/float.css");
 /* theme */
 @import url("themes/theme.css");
+/* global style */
 a {
     text-decoration: none;
+}
+body {
+    padding: 0;
+    margin: 0;
 }

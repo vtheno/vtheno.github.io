@@ -1,1 +1,77 @@
 /* todo */
+.layout .flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+.layout .flex-axis-row {
+    flex-direction: row;
+}
+.layout .flex-axis-col {
+    flex-direction: column;
+}
+.layout .flex-axis-col-rev {
+    flex-direction: column-reverse;
+}
+.layout .flex-axis-row-rev {
+    flex-direction: row-reverse;
+}
+
+.layout .flex-axis-main-start {
+    justify-content: flex-start;
+}
+.layout .flex-axis-main-center {
+    justify-content: center;
+}
+.layout .flex-axis-main-end {
+    justify-content: flex-end;
+}
+.layout .flex-axis-main-between {
+    justify-content: space-between;
+}
+.layout .flex-axis-main-around {
+    justify-content: space-around;
+}
+.layout .flex-axis-cross-start {
+    align-items: flex-start;
+}
+.layout .flex-axis-cross-center {
+    align-items: center;
+}
+.layout .flex-axis-cross-end {
+    align-items: flex-end;
+}
+.layout .flex-axis-cross-baseline {
+    align-items: baseline;
+}
+.layout .flex-axis-cross-stretch {
+    align-items: stretch;
+}
+.layout .flex-item-wrap {
+    flex-wrap: wrap;
+}
+.layout .flex-item-nowrap {
+    flex-wrap: nowrap;
+}
+.layout .flex-item-wrap-rev {
+    flex-grow: wrap-reverse;
+}
+/* 
+   justify-content: flex-start | flex-end | center | space-between | space-around;
+   align-items: flex-start | flex-end | center | baseline | stretch;
+   flex-grow: 1;
+   flex-shrink: 0;
+   flex-basis: 0;
+*/
+.layout .flex-scale-1 { flex-grow: 1; flex-basis: 0px; flex-shrink: 1; }
+.layout .flex-scale-2 { flex-grow: 2; flex-basis: 0px; flex-shrink: 1; }
+.layout .flex-scale-3 { flex-grow: 3; flex-basis: 0px; flex-shrink: 1; }
+.layout .flex-scale-4 { flex-grow: 4; flex-basis: 0px; flex-shrink: 1; }
+.layout .flex-scale-5 { flex-grow: 5; flex-basis: 0px; flex-shrink: 1; }
+.layout .flex-scale-6 { flex-grow: 6; flex-basis: 0px; flex-shrink: 1; }
+.layout .flex-scale-7 { flex-grow: 7; flex-basis: 0px; flex-shrink: 1; }
+.layout .flex-scale-8 { flex-grow: 8; flex-basis: 0px; flex-shrink: 1; }
+.layout .flex-scale-9 { flex-grow: 9; flex-basis: 0px; flex-shrink: 1; }
