@@ -1,0 +1,8 @@
+/* widget */
+@import url("widgets/card.css");
+/* layout */
+@import url("layouts/flex.css");
+
+a {
+    text-decoration: none;
+}
