@@ -1,0 +1,5 @@
+# emacs backup file
+*~
+# win binary
+*.exe
+*.dll
