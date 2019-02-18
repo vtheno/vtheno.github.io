@@ -26,6 +26,7 @@
     /* basis */
     flex-basis: auto;
     /* overflow */
+    overflow: auto;
 }
 
 /* main-axis */

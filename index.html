@@ -4,11 +4,13 @@
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="./css/style.css">
     <style>
-      .item {
-      /* margin: left top right down; */
-      margin: 1%;
-      box-shadow: 0 0.6vh 0.7vw 0 rgba(0,0,0,0.2), 0 0.6vh 0.7vw 0 rgba(0,0,0,0.15);
-      }
+            .item {
+	    /* margin: left top right down; */
+	    margin: 1%;
+	    box-shadow: 0 0.6vh 0.7vw 0 rgba(0,0,0,0.2), 0 0.6vh 0.7vw 0 rgba(0,0,0,0.15);
+	    /* user-select: none; */
+	    /* -moz-user-select: none; */
+	    }
     </style>
   </head>
   <body class="layout size theme">
@@ -29,58 +31,38 @@
 	   basis="70"
 	   >
 	<!-- item -->
-	<div layout="flex"
-	     theme="blue"
-	     max="1"
-	     min="1"
-	     basis="30"
-	     class="item"
-	     width="30"
-	     height="30"
-	     >
-	</div>
-	<!-- item -->
-	<div layout="flex"
-	     theme="orange"
-	     max="1"
-	     min="1"
-	     basis="30"
-	     class="item"
-	     width="30"
-	     height="30"
-	     >
-	</div>
-	<!-- item -->
-	<div layout="flex"
-	     theme="green"
-	     max="1"
-	     min="1"
-	     basis="30"
-	     class="item"
-	     width="30"
-	     height="30"
-	     >
-	</div>
-	<!-- item -->
-	<div layout="flex"
+	<div widget="card"
 	     theme="red"
-	     max="1"
-	     min="1"
-	     basis="30"
-	     class="item"
-	     width="30"
-	     height="30"
+	     id="item1"
+	     draggable="true"
 	     >
 	</div>
 	<!-- item -->
-	<div layout="flex"
+	<div widget="card"
+	     theme="green"
+	     id="item2"
+	     draggable="true"
+	     >
+	</div>
+	<!-- item -->
+	<div widget="card"
 	     theme="blue"
-	     max="1"
-	     min="1"
-	     basis="30"
-	     class="item"
-	     width="30"
-	     height="30"
+	     id="item3"
+	     draggable="true"
+	     >
+	</div>
+	<!-- item -->
+	<div widget="card"
+	     theme="orange"
+	     id="item4"
+	     draggable="true"
+	     >
+	</div>
+	<!-- item -->
+	<div widget="card"
+	     theme="dark"
+	     id="item5"
+	     draggable="true"
 	     >
 	</div>
       </div>
@@ -97,5 +79,7 @@
 	   >
       </div>
     </div>
+    <script src="./index.js">
+    </script>
   </body>
 </html>
