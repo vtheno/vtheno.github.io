@@ -1,20 +1,20 @@
-.theme .green {
+.theme [theme="green"] {
     background-color: #96E6A1;
     color: white;
 }
-.theme .blue {
+.theme [theme="blue"] {
     background-color: #8FD3F4;
     color: white;
 }
-.theme .red {
+.theme [theme="red"] {
     background-color: #FDA085;
     color: white;
 }
-.theme .orange {
+.theme [theme="orange"] {
     background-color: #F6D365;
     color: white;
 }
-.theme .dark {
+.theme [theme="dark"] {
     background-color: #555555;
     color: white;
 }

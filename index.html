@@ -3,140 +3,98 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="./css/style.css">
+    <style>
+      .item {
+      /* margin: left top right down; */
+      margin: 1%;
+      box-shadow: 0 0.6vh 0.7vw 0 rgba(0,0,0,0.2), 0 0.6vh 0.7vw 0 rgba(0,0,0,0.15);
+      }
+    </style>
   </head>
-  <body class="layout theme">
-    <div id="container" class="flex
-			       flex-scale-1 
-			       flex-axis-row 
-			       flex-item-nowrap
-			       ">
-      <div class="flex flex-scale-2 flex-axis-col">
-	<div class="float-left">
-	  <div class="card">
-	    <div class="header green">
-	      Header
-	    </div>
-	    <div class="container">
-	      <button class="button green">
-		green
-	      </button>
-	      <button class="button blue">
-		blue
-	      </button>
-	      <button class="button red">
-		red
-	      </button>
-	      <button class="button orange">
-		orange
-	      </button>
-	      <button class="button dark">
-		dark
-	      </button>
-	    </div>
-	  </div>
-
-	  <div class="card">
-	    <div class="header blue">
-	      Header
-	    </div>
-	    <div class="container">
-	      <button class="button green">
-		green
-	      </button>
-	      <button class="button blue">
-		blue
-	      </button>
-	      <button class="button red">
-		red
-	      </button>
-	      <button class="button orange">
-		orange
-	      </button>
-	      <button class="button dark">
-		dark
-	      </button>
-	    </div>
-	  </div>
-
-	  <div class="card">
-	    <div class="header red">
-	      Header
-	    </div>
-	    <div class="container">
-	      <button class="button green">
-		green
-	      </button>
-	      <button class="button blue">
-		blue
-	      </button>
-	      <button class="button red">
-		red
-	      </button>
-	      <button class="button orange">
-		orange
-	      </button>
-	      <button class="button dark">
-		dark
-	      </button>
-	    </div>
-	  </div>
-
-	  <div class="card">
-	    <div class="header orange">
-	      Header
-	    </div>
-	    <div class="container">
-	      <button class="button green">
-		green
-	      </button>
-	      <button class="button blue">
-		blue
-	      </button>
-	      <button class="button red">
-		red
-	      </button>
-	      <button class="button orange">
-		orange
-	      </button>
-	      <button class="button dark">
-		dark
-	      </button>
-	    </div>
-	  </div>
-
-	  <div class="card">
-	    <div class="header dark">
-	      Header
-	    </div>
-	    <div class="container">
-	      <button class="button green">
-		green
-	      </button>
-	      <button class="button blue">
-		blue
-	      </button>
-	      <button class="button red">
-		red
-	      </button>
-	      <button class="button orange">
-		orange
-	      </button>
-	      <button class="button dark">
-		dark
-	      </button>
-	    </div>
-	  </div>
-
+  <body class="layout size theme">
+    <div layout="flex"
+	 axis="row"
+	 axis-main="start" 
+	 axis-cross="start"
+	 item-wrap="wrap"
+	 >
+      <!-- left -->
+      <div layout="flex"
+	   axis="row"
+	   axis-main="start" 
+	   axis-cross="start"
+	   item-wrap="wrap"
+	   max="1"
+	   min="1"
+	   basis="70"
+	   >
+	<!-- item -->
+	<div layout="flex"
+	     theme="blue"
+	     max="1"
+	     min="1"
+	     basis="30"
+	     class="item"
+	     width="30"
+	     height="30"
+	     >
+	</div>
+	<!-- item -->
+	<div layout="flex"
+	     theme="orange"
+	     max="1"
+	     min="1"
+	     basis="30"
+	     class="item"
+	     width="30"
+	     height="30"
+	     >
+	</div>
+	<!-- item -->
+	<div layout="flex"
+	     theme="green"
+	     max="1"
+	     min="1"
+	     basis="30"
+	     class="item"
+	     width="30"
+	     height="30"
+	     >
+	</div>
+	<!-- item -->
+	<div layout="flex"
+	     theme="red"
+	     max="1"
+	     min="1"
+	     basis="30"
+	     class="item"
+	     width="30"
+	     height="30"
+	     >
+	</div>
+	<!-- item -->
+	<div layout="flex"
+	     theme="blue"
+	     max="1"
+	     min="1"
+	     basis="30"
+	     class="item"
+	     width="30"
+	     height="30"
+	     >
 	</div>
       </div>
-      <div class="flex flex-scale-1 flex-axis-col 
-		  flex-axis-main-center
-		  flex-axis-cross-center
-		  " 
-	   style="background-color: #555555;"
+      <!-- right -->
+      <div layout="flex"
+	   axis="row"
+	   axis-main="start" 
+	   axis-cross="start"
+	   item-wrap="wrap"
+	   max="1"
+	   min="1"
+	   basis="30"
+	   theme="dark"
 	   >
-	<input class="input" type="text"/>
-	<input class="input" type="password"/>
       </div>
     </div>
   </body>

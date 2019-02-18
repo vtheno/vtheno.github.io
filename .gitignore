@@ -3,3 +3,9 @@
 # win binary
 *.exe
 *.dll
+# backup
+backup/*
+backup/
+demo/*
+demo/
+flex.org
