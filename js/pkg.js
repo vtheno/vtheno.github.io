@@ -1,4 +1,4 @@
-var Pkg = {
+var pkg = {
 	print: function (obj) {
 		console.log(obj)
 	},
@@ -43,7 +43,7 @@ var Pkg = {
 	Element: function(data) {
 		let _self = null
 		if (data.id){
-			_self = Pkg.getElementById(_data.id)
+			_self = pkg.getElementById(_data.id)
 		}
 		let _ret = {}
 		_ret.then = function(handler){
@@ -94,6 +94,6 @@ var Pkg = {
 		return obj
 	},
 	$: function(id_name) {
-		return Pkg.Element({id: id_name})
+		return pkg.Element({id: id_name})
 	}
 }
