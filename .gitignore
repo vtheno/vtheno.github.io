@@ -10,3 +10,6 @@ demo/*
 demo/
 test.html
 flex.org
+__pycache__/*
+__pycache__/
+*.pyc
